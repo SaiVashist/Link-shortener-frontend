@@ -1,0 +1,83 @@
+/* styles.css */
+.header{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  min-height: 200px;
+  border-radius: 6px;
+  box-shadow: 20px;
+}
+
+.header h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}  
+.input-container{
+
+    display: flex;
+    flex-direction: column;
+}
+.input-container input{
+
+    height: 30px;
+    width: 400px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+
+}
+.input-container input:focus {
+    border-color: red !important;
+  }
+.input-container button{
+    background-color: rgb(60, 217, 60);
+    height: 30px;
+    width: 150px;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.input-container button:hover{
+    background-color: gray;
+    color: black;
+}
+.header a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0366d6;
+    margin-bottom: 20px;
+  }
+
+  .short_Link h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    font-weight: 10px;
+  }
+
+  .error {
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 80px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  
